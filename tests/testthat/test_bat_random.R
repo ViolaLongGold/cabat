@@ -1,7 +1,6 @@
 #Automated testing for BAT
 library(psychTestR)
 library(testthat)
-if (!require(stringr)) install.packages("stringr")
 library(stringr)
 
 dir <- system.file("BAT", package = "cabat", mustWork = TRUE)
